@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Contacts</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="contact">
+			<h3>Contact</h3>
+			<form>
+				<label>Name</label>
+				<input type="text" placeholder="Name" id="contact-name">
+				<label>Phone</label>
+				<input type="text" placeholder="Phone" id="contact-phone">
+				<label>E-mail</label>
+				<input type="mail" placeholder="E-mail" id="contact-mail">
+				<button onclick="addContact()">Add</button>
+			</form>
+		</div>
+		<div class="my-contact">
+			<h3>My contacts</h3>
+			<div class="my-contacts" id="contact-container"></div>
+
+		</div>
+		<button onclick="deleteAllContacts()">Delete all contacts</button>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>

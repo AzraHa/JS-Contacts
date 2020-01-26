@@ -1,0 +1,35 @@
+body{
+	background-color: rgb(156, 154, 155);
+}
+.container{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+h3{
+	text-align: center;
+}
+
+.my-contacts{
+	display: grid;
+	grid-template-columns: repeat(3, 230px);
+	grid-template-rows: repeat(3, auto);
+}
+
+.contact,.my-contact{
+	width: 50%;
+}
+.contact form{ 
+	display: flex;
+	flex-direction: column;
+}
+.contact form label,.contact form input,.contact button{
+	text-align: center;
+	border-radius:4px;
+	padding: 3px;
+	margin:10px 150px;
+}
+
+.cont{
+	width:200px;
+}
